@@ -69,4 +69,4 @@ def predict_diseases_from_text():
         return jsonify({'message': 'No matching symptoms found in the dataset.'}), 404
 
 if __name__ == '__main__':
-    app.run(port=5001, debug=True)
+    app.run()
